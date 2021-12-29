@@ -1,0 +1,8 @@
+{
+  "name": "utility-box",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/mikecit22/utility-box.git",
+  "author": "Michael Citro <85300117+mcitro-ne@users.noreply.github.com>",
+  "license": "MIT"
+}
