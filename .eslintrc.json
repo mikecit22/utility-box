@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "prettier",
+    "eslint-config-prettier"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "window": "readonly",
+    "document": "readonly",
+    "expect": "readonly",
+    "test": "readonly",
+    "describe": "readonly",
+    "beforeEach": "readonly",
+    "cy": "readonly",
+    "it": "readonly",
+    "jest": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "rules": {
+    "import/no-extraneous-dependencies": 0,
+    "object-curly-newline": 0,
+    "no-unused-expressions": 0,
+    "react/jsx-filename-extension": 0,
+    "no-underscore-dangle": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/require-default-props": 0,
+    "no-console": 0,
+    "react/no-danger": 0,
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "react/jsx-curly-newline": "off"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  }
+}
